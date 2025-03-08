@@ -3,7 +3,7 @@ from post import Post
 import requests
 
 blog_posts = [] #List of Post classes
-blog_url = "https://api.npoint.io/c790b4d5cab58020d391"
+blog_url = "https://api.npoint.io/23fc9516960c06c50d50"
 response = requests.get(blog_url)
 all_posts = response.json()
 for post in all_posts:
